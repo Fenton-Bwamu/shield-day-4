@@ -1,0 +1,85 @@
+body{
+    font-size: 30px;
+    color: rgb(250, 13, 13);
+    background-color: #0b30d1;
+}
+.NAVIGATION{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.logo{
+    color: rgb(209, 23, 23)
+}
+.NAVLINKS{
+    color:white
+}
+.NAVLINKS > a{
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+}
+.hero {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+.hero > img{
+    max-width: 100%;
+    width:100%;
+    margin: auto;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    flex-direction: row;
+    text-align: center;
+}
+.hero-content > h1 {
+    font-size:30px;
+    color: rgb(17, 4, 4);
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+    
+}
+.hero-content > p {
+    font-size: 30px;
+    margin: 0;
+}
+.hero-content button{
+    margin: auto;
+    font-size: 16px;
+    border: none;
+    color: rgb(215, 215, 233);
+    background-color: rgb(8, 8, 8);
+    width: 20%;
+    padding: 6px;
+    position: relative;
+    align-items:center;
+    
+}
+.hero-content > button:hover{
+    background-color: rgb(190, 194, 228);
+    color: #0b30d1;
+
+}
+
+
+
+
+
+
